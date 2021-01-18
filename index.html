@@ -1,27 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Basics</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p class="first">Mount Everest is the tallest mountain in the world.</p>
-    <p class="second">According to consensus in modern genetics, anatomically modern humans first arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years ago. However, the earliest known human remains in India date to 30,000 years ago. Settled life, which involves the transition from foraging to farming and pastoralism, began in Greater India around 7,000 BCE. At the site of Mehrgarh, presence can be documented of the domestication of wheat and barley, rapidly followed by that of goats, sheep, and cattle. By 4,500 BCE, settled life had spread more widely, and began to gradually evolve into the Indus Valley Civilization, an early civilization of the Old world, which was contemporaneous with Ancient Egypt and Mesopotamia. This civilization flourished between 2,500 BCE and 1900 BCE in what today is Pakistan and north-western India and was noted for its urban planning, baked brick houses, elaborate drainage, and water supply.</p>
-
-    <h4>Favourite Sports :</h4>
-    <ul>
-        <li>Football - According to consensus in modern genetics, anatomically modern humans first arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years ago. However, the earliest known human remains in India date to 30,000 years ago. Settled life, which involves the transition from foraging to farming and pastoralism, began in Greater India around 7,000 BCE. At the site of Mehrgarh, presence can be documented</li>
-        <li>Baseball - According to consensus in modern genetics, anatomically modern humans first arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years ago. However, the earliest known human remains in India date to 30,000 years ago. Settled life, which involves the transition from foraging to farming and pastoralism, began in Greater India around 7,000 BCE. At the site of Mehrgarh, presence can be documented</li>
-        <li>Hockey - According to consensus in modern genetics, anatomically modern humans first arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years ago. However, the earliest known human remains in India date to 30,000 years ago. Settled life, which involves the transition from foraging to farming and pastoralism, began in Greater India around 7,000 BCE. At the site of Mehrgarh, presence can be documented</li>
-    </ul>
-
-    <h4>Summer Trip:</h4>
-    <ol>
-        <li>Paris According to consensus in modern genetics, anatomically modern humans first arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years ago. However, the earliest known human remains in India date to 30,000 years ago. Settled life, which involves the transition from foraging to farming and pastoralism, began in Greater India around 7,000 BCE. At the site of Mehrgarh, presence can be documented</li>
-        <li>Rome According to consensus in modern genetics, anatomically modern humans first arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years ago. However, the earliest known human remains in India date to 30,000 years ago. Settled life, which involves the transition from foraging to farming and pastoralism, began in Greater India around 7,000 BCE. At the site of Mehrgarh, presence can be documented</li>
-        <li>Netherlands According to consensus in modern genetics, anatomically modern humans first arrived on the Indian subcontinent from Africa between 73,000 and 55,000 years ago. However, the earliest known human remains in India date to 30,000 years ago. Settled life, which involves the transition from foraging to farming and pastoralism, began in Greater India around 7,000 BCE. At the site of Mehrgarh, presence can be documented</li>
-    </ol>
+  <main>
+    <section class="glass">
+      <div class="dashboard">
+        <div class="user">
+          <img src="./images/avatar.png" alt="avatar" height="100">
+          <h3>Akash Singh</h3>
+          <p>Pro Member</p>
+        </div>
+        <div class="links">
+          <div class="link">
+            <img src="./images/twitch.png" alt="twitch image">
+            <h2>Streams</h2>
+          </div>
+          <div class="link">
+            <img src="./images/steam.png" alt="Games image">
+            <h2>Games</h2>
+          </div>
+          <div class="link">
+            <img src="./images/upcoming.png" alt="New image">
+            <h2>New</h2>
+          </div>
+          <div class="link">
+            <img src="./images/library.png" alt="Library image">
+            <h2>Library</h2>
+          </div>
+        </div>
+        <div class="pro">
+          <h2>Join pro for free games.</h2>
+          <img src="./images/controller.png" alt="controller">
+        </div>
+      </div>
+      <div class="games">
+        <div class="status">
+          <h1>Active Games</h1>
+          <input type="text">
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./images/assassins.png" alt="" />
+            <div class="card-info">
+              <h2>Assassins Creed Valhalla</h2>
+              <p>PS5 Version</p>
+              <div class="progress1"></div>
+            </div>
+            <h2 class="percentage">60%</h2>
+          </div>
+          <div class="card">
+            <img src="./images/sackboy.png" alt="" />
+            <div class="card-info">
+              <h2>Assassins Creed Valhalla</h2>
+              <p>PS5 Version</p>
+              <div class="progress2"></div>
+            </div>
+            <h2 class="percentage">60%</h2>
+          </div>
+          <div class="card">
+            <img src="./images/spiderman.png" alt="" />
+            <div class="card-info">
+              <h2>Assassins Creed Valhalla</h2>
+              <p>PS5 Version</p>
+              <div class="progress3"></div>
+            </div>
+            <h2 class="percentage">60%</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="circle1"></div>
+  <div class="circle2"></div>
 </body>
 </html>
